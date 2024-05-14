@@ -64,7 +64,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     /* Adjust the size of the images */
     width: 100%; /* Make image take up full width */
-    max-height: 2000px; /* Adjusted to 900px as per your request */
+    max-height: 100%; /* Adjusted to 900px as per your request */
     object-fit: cover; /* Maintain aspect ratio */
 }
 
