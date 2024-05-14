@@ -107,3 +107,8 @@ footer {
 .sidebar-right {
     right: 0;
 }
+
+.video-container {
+    width: 80%;
+    margin: 20px auto;
+}
