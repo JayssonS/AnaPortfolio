@@ -3,56 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artist Portfolio</title>
+    <title>Anastasiya Veselova - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <div class="container">
-            <h1>Artist Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>Anastasiya Veselova</h1>
+            <h2>PORTFOLIO</h2>
+            <p>Ringling College Art & Design Student</p>
         </div>
     </header>
 
-    <section id="home" class="section">
+    <section id="home" class="section home">
         <div class="container">
             <h2>Welcome to My Portfolio</h2>
-            <p>This is where you can showcase your artistic works.</p>
+            <p>Explore the beauty of art.</p>
         </div>
     </section>
 
-    <section id="portfolio" class="section">
+    <section id="portfolio" class="section portfolio">
         <div class="container">
             <h2>Portfolio</h2>
-            <!-- Your portfolio items will go here -->
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="Png1.png" alt="Artwork 1" onclick="openModal('Png1.png', 'Artwork Title 1', 'Description of the artwork.')">
+                    <h3>Artwork Title 1</h3>
+                    <p>Description of the artwork.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image2.jpeg" alt="Artwork 2" onclick="openModal('placeholder2.jpg', 'Artwork Title 2', 'Description of the artwork.')">
+                    <h3>Artwork Title 2</h3>
+                    <p>Description of the artwork.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="placeholder3.jpg" alt="Artwork 3" onclick="openModal('placeholder3.jpg', 'Artwork Title 3', 'Description of the artwork.')">
+                    <h3>Artwork Title 3</h3>
+                    <p>Description of the artwork.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="about" class="section">
+    <section id="about" class="section about">
         <div class="container">
             <h2>About Me</h2>
-            <p>Write something about yourself here.</p>
+            <p>I'm an artist passionate about creating beautiful and meaningful art. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet purus id orci consequat tincidunt.</p>
         </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>You can reach me at: your@email.com</p>
+            <p>If you're interested in my work or have any questions, feel free to contact me.</p>
+            <p>Email: contact@example.com</p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Artist Portfolio. All rights reserved.</p>
+            <p>&copy; 2024 Anastasiya Veselova Portfolio. All rights reserved.</p>
         </div>
     </footer>
+
 </body>
 </html>

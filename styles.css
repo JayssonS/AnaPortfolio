@@ -9,35 +9,77 @@ body {
     margin: 0 auto;
 }
 
-header {
+.main-header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 40px 0;
+    text-align: center;
 }
 
-header h1 {
+.main-header h1 {
     margin: 0;
+    font-size: 28px;
+}
+
+.main-header h2 {
+    margin: 10px 0;
     font-size: 24px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.main-header p {
     margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    font-size: 16px;
 }
 
 .section {
     padding: 40px 0;
+}
+
+.home {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.portfolio {
+    background-color: #fff;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-direction: column; /* Display items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.portfolio-item {
+    width: 900px;
+    margin: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Adjust the size of the images */
+    width: 100%; /* Make image take up full width */
+    max-height: 900px; /* Limit the height to 300px */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+}
+
+.about {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
 }
 
 footer {
